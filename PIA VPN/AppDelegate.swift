@@ -36,8 +36,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         Bootstrapper.shared.bootstrap()
         application.shortcutItems = []
-        hotspotHelper = PIAHotspotHelper()
-        _ = hotspotHelper.configureHotspotHelper()
+        //hotspotHelper = PIAHotspotHelper()
+        //_ = hotspotHelper.configureHotspotHelper()
         
         return true
     }

@@ -996,9 +996,9 @@
 				TargetAttributes = {
 					0E67FC211E3F802D00EF9929 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5357M5NW9W;
+						DevelopmentTeam = CNQ74B27V5;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1012,32 +1012,33 @@
 						};
 					};
 					0EE2200B1F4EF307002805AE = {
-						DevelopmentTeam = 5357M5NW9W;
+						DevelopmentTeam = CNQ74B27V5;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					0EE2D77F1CB40A98000DEC4D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CNQ74B27V5;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 291C637B183EBC210039EC03;
 					};
 					0EEE1BE61E4F6EF400397DE2 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 5357M5NW9W;
+						DevelopmentTeam = CNQ74B27V5;
 						LastSwiftMigration = 1010;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 0EE2200B1F4EF307002805AE;
 					};
 					0EFB606F203D7A2C0095398C = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = 5357M5NW9W;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CNQ74B27V5;
+						ProvisioningStyle = Automatic;
 					};
 					291C637B183EBC210039EC03 = {
-						DevelopmentTeam = 5357M5NW9W;
+						DevelopmentTeam = CNQ74B27V5;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -1792,18 +1793,17 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN Tunnel/PIA VPN Tunnel.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "PIA VPN Tunnel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN.Tunnel";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn.Tunnel;
 				PRODUCT_NAME = "PIA VPN Tunnel";
-				PROVISIONING_PROFILE = "b5b9e54d-7aba-4fc6-9320-adbce64c544a";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN.Tunnel";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1819,19 +1819,18 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN Tunnel/PIA VPN Tunnel.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "PIA VPN Tunnel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN.Tunnel";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn.Tunnel;
 				PRODUCT_NAME = "PIA VPN Tunnel";
-				PROVISIONING_PROFILE = "b5b9e54d-7aba-4fc6-9320-adbce64c544a";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN.Tunnel";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1845,9 +1844,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1861,11 +1860,10 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn;
 				PRODUCT_MODULE_NAME = PIA_VPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "420cc0bf-ef09-4d4c-b1b3-9d7cffd4d201";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PIA_DEV;
 				SWIFT_OBJC_BRIDGING_HEADER = "PIA VPN/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1882,9 +1880,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1898,11 +1896,10 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn;
 				PRODUCT_MODULE_NAME = PIA_VPN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "420cc0bf-ef09-4d4c-b1b3-9d7cffd4d201";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PIA_DEV;
 				SWIFT_OBJC_BRIDGING_HEADER = "PIA VPN/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1916,9 +1913,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -1940,10 +1938,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -1967,9 +1966,10 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					PIA_DEV,
@@ -1999,10 +1999,11 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_PREPROCESSOR_DEFINITIONS = PIA_DEV;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "PIA VPNTests/Info.plist";
@@ -2026,19 +2027,18 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "PIA VPN AdBlocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN.AdBlocker";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn.AdBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5aba703f-4bee-46e6-a5e4-42b785d1db55";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN.AdBlocker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2055,20 +2055,19 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "PIA VPN AdBlocker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.PIA-VPN.AdBlocker";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn.AdBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5aba703f-4bee-46e6-a5e4-42b785d1db55";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN.AdBlocker";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2190,9 +2189,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "PIA VPN/Info.plist";
@@ -2201,9 +2200,9 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PIA VPN/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2219,9 +2218,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNQ74B27V5;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "PIA VPN/Info.plist";
@@ -2230,9 +2229,9 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.privateinternetaccess.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = sm.puri.librem.vpn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PIA VPN/Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s arm64e";
