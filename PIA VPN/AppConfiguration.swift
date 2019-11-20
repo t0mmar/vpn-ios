@@ -18,9 +18,9 @@ struct AppConfiguration {
     }
     
     struct About {
-        static let copyright = "2014-2019"
+        static let copyright = "2019"
 
-        static let companyName = "London Trust Media, Inc."
+        static let companyName = "Purism SPC"
     }
     
     struct Welcome {

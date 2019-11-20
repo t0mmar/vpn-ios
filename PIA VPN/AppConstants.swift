@@ -10,9 +10,9 @@ import Foundation
 import PIALibrary
 
 struct AppConstants {
-    static let teamId = "5357M5NW9W"
+    static let teamId = "CNQ74B27V5"
 
-    static let appGroup = "group.com.privateinternetaccess"
+    static let appGroup = "group.one.librem"
     
     static let appCenterAppId = "a2397c42-40ac-48e8-97e6-7498f0df0e1a"
     
@@ -45,9 +45,9 @@ struct AppConstants {
     }
     
     struct Extensions {
-        static let tunnelBundleIdentifier = "com.privateinternetaccess.ios.PIA-VPN.Tunnel"
+        static let tunnelBundleIdentifier = "one.librem.tunnel.Tunnel"
 
-        static let adBlockerBundleIdentifier = "com.privateinternetaccess.ios.PIA-VPN.AdBlocker"
+        static let adBlockerBundleIdentifier = "one.librem.tunnel.AdBlocker"
     }
     
     struct SiriShortcuts {
@@ -56,15 +56,15 @@ struct AppConstants {
     }
     
     struct Web {
-        static let homeURL = URL(string: "https://www.privateinternetaccess.com/")!
+        static let homeURL = URL(string: "https://librem.one/")!
 
-        static let supportURL = URL(string: "https://helpdesk.privateinternetaccess.com/")!
+        static let supportURL = URL(string: "https://librem.one/support/")!
         
-        static let privacyURL = URL(string: "https://www.privateinternetaccess.com/pages/privacy-policy/")!
+        static let privacyURL = URL(string: "https://librem.one/policy/")!
 
-        static let csEmail = "helpdesk+vpnpermissions.ios@privateinternetaccess.com"
+        static let csEmail = "support@librem.one"
         
-        static let friendReferralTerms = "https://www.privateinternetaccess.com/pages/invites/terms_and_conditions"
+        static let friendReferralTerms = "https://librem.one/policy"
 
         static var stagingEndpointURL: URL? = {
             guard let path = Bundle.main.path(forResource: "staging", ofType: "endpoint") else {
