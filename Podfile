@@ -44,6 +44,12 @@ def library_by_git(sha)
     }
 end
 
+def library_by_tag(tag)
+    $library_subspecs.each { |name|
+        pod "#{$library_pod}/#{name}", :git => "#{$git_root}/#{$library_repo}", :tag => tag
+    }
+end
+
 def library_by_gitlab_branch(branch)
     $library_subspecs.each { |name|
         pod "#{$library_pod}/#{name}", :git => "#{$gitlab_vpn_root}/#{$library_gitlab_repo}", :branch => branch
@@ -66,16 +72,9 @@ end
 
 def shared_main_pods
     pod 'AlamofireImage'
-    
     pod "PIAAccountModule", :git => "#{$git_root}/#{$accounts_repo}", :tag => "v1.1.0"
-    # pod "PIAAccountModule", :git => "#{$gitlab_kn_root}/#{$accounts_gitlab_repo}", :commit => '6116a38'
     pod "PIARegions", :git => "#{$git_root}/#{$regions_repo}", :tag => "v1.1.0"
-    # pod "PIARegions", :git => "#{$gitlab_kn_root}/#{$regions_gitlab_repo}", :commit => '3b9395f'
-    
-    #library_by_path('/Users/jose/Projects/PIA')
-    library_by_git('cb5134e')
-    #library_by_gitlab_branch('develop')
-    #library_by_gitlab_by_git('cb5134e')
+    library_by_tag("v2.9.0") # cb5134e'
 end
 
 def app_pods

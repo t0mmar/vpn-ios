@@ -65,7 +65,7 @@ PODS:
   - GradientProgressBar (2.0.3):
     - LightweightObservable (~> 2.0)
   - LightweightObservable (2.1.1)
-  - lottie-ios (3.1.8)
+  - lottie-ios (3.1.9)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -127,7 +127,7 @@ PODS:
   - SideMenu (6.1.3)
   - SwiftEntryKit (0.7.2):
     - QuickLayout (= 2.0.2)
-  - SwiftyBeaver (1.9.1)
+  - SwiftyBeaver (1.9.3)
   - TPKeyboardAvoiding (1.3.3)
   - TunnelKit (2.2.2):
     - TunnelKit/Protocols/OpenVPN (= 2.2.2)
@@ -151,10 +151,10 @@ DEPENDENCIES:
   - Firebase/Core (= 6.5.0)
   - GradientProgressBar (~> 2.0)
   - PIAAccountModule (from `https://github.com/pia-foss/mobile-common-account`, tag `v1.1.0`)
-  - PIALibrary/Library (from `https://github.com/pia-foss/client-library-apple`, commit `cb5134e`)
-  - PIALibrary/Mock (from `https://github.com/pia-foss/client-library-apple`, commit `cb5134e`)
-  - PIALibrary/UI (from `https://github.com/pia-foss/client-library-apple`, commit `cb5134e`)
-  - PIALibrary/VPN (from `https://github.com/pia-foss/client-library-apple`, commit `cb5134e`)
+  - PIALibrary/Library (from `https://github.com/pia-foss/client-library-apple`, tag `v2.9.0`)
+  - PIALibrary/Mock (from `https://github.com/pia-foss/client-library-apple`, tag `v2.9.0`)
+  - PIALibrary/UI (from `https://github.com/pia-foss/client-library-apple`, tag `v2.9.0`)
+  - PIALibrary/VPN (from `https://github.com/pia-foss/client-library-apple`, tag `v2.9.0`)
   - PIARegions (from `https://github.com/pia-foss/mobile-common-regions`, tag `v1.1.0`)
   - PIAWireguard (from `https://github.com/pia-foss/ios-wireguard`)
   - Popover
@@ -201,8 +201,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/pia-foss/mobile-common-account
     :tag: v1.1.0
   PIALibrary:
-    :commit: cb5134e
     :git: https://github.com/pia-foss/client-library-apple
+    :tag: v2.9.0
   PIARegions:
     :git: https://github.com/pia-foss/mobile-common-regions
     :tag: v1.1.0
@@ -217,8 +217,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/pia-foss/mobile-common-account
     :tag: v1.1.0
   PIALibrary:
-    :commit: cb5134e
     :git: https://github.com/pia-foss/client-library-apple
+    :tag: v2.9.0
   PIARegions:
     :git: https://github.com/pia-foss/mobile-common-regions
     :tag: v1.1.0
@@ -247,7 +247,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
   GradientProgressBar: f11fb57cffc615a4794da558ce283171a992130a
   LightweightObservable: 52abe2a01c8273921b1f66cd66526eb3328ca35a
-  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   OpenSSL-Apple: 2c9efbc94e0a1ada434cc197b02bd70052a82281
   PIAAccountModule: 5d617eb89a69ac31cfabf11666c4ec04c6ae82ad
@@ -260,11 +260,11 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
   SideMenu: 46c1b79dab51fc2f1c1ff3e1212ca47cc231b0bf
   SwiftEntryKit: 83d312243af7397e38a222b17b7a744b9a7d2145
-  SwiftyBeaver: a1f5691458561414bcfab51874b2b7445451602b
+  SwiftyBeaver: 2e8acd6fc90c6d0a27055867a290794926d57c02
   TPKeyboardAvoiding: 6dd3fe3268b8f2627beb7ff3d82a3cacbdf66a36
   TunnelKit: 1733ed87934deb57edc7aa5f4b25185bf302a7d4
   TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
 
-PODFILE CHECKSUM: 1bd4fce63892c04a4c0d533bb7419ca91625ff58
+PODFILE CHECKSUM: cb4c2944050d9cc7c25d13dd2169a37f7f244d82
 
 COCOAPODS: 1.10.0
