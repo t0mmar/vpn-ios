@@ -67,9 +67,9 @@ end
 def shared_main_pods
     pod 'AlamofireImage'
     
-    pod "PIAAccountModule", :git => "#{$git_root}/#{$accounts_repo}"
+    pod "PIAAccountModule", :git => "#{$git_root}/#{$accounts_repo}", :tag => "v1.1.0"
     # pod "PIAAccountModule", :git => "#{$gitlab_kn_root}/#{$accounts_gitlab_repo}", :commit => '6116a38'
-    pod "PIARegions", :git => "#{$git_root}/#{$regions_repo}"
+    pod "PIARegions", :git => "#{$git_root}/#{$regions_repo}", :tag => "v1.1.0"
     # pod "PIARegions", :git => "#{$gitlab_kn_root}/#{$regions_gitlab_repo}", :commit => '3b9395f'
     
     #library_by_path('/Users/jose/Projects/PIA')
